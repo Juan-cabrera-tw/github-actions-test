@@ -7,8 +7,7 @@ jobs:
     steps:
       - name: Log node node node-version
         run: node -v
-      - name: update version
-        run: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 6
       - name: Log node version
