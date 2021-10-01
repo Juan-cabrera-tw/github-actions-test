@@ -1,4 +1,4 @@
-name: Container
+name: Container-2
 on: push
 
 jobs:
@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       app:
-        image: aloia1aa17/node-api
+        image: alia1aa17/node-api
         ports:
           - 3001:3000
       mongo:
